@@ -1,0 +1,72 @@
+body{
+font-family:'Georgia';
+font-family:'Helvetica','Arial','sans-serif';
+
+}
+h1, h2, h3, h4,h5{
+font-family:georgia, 'bitstream vera sans serif', 'lucida grande',
+	helvetica, verdana, sans-serif;
+font-weight:normal;
+letter-spacing:-0.075em;
+color:#000;
+}
+h5.article_date, h3.author, h4.copy{
+ color:#666;
+ text-align:right;
+ margin:3px;
+ padding:0px;
+}
+h4.copy{
+	text-align:center;
+}
+#main_content{
+margin: 0px auto;
+margin-top: 0px;
+margin-right: auto;
+margin-bottom: 0px;
+margin-left: auto;
+max-width: 800px;	
+}
+p, ul, ol, dl, pre, blockquote, table, form {
+margin:20px 0;
+}
+body {
+font-size:16px;
+line-height:1.5;   /* 30px */
+margin:0 5px;
+font-family: corbel, 'lucida grande', helvetica, sans-serif;
+color:#212122;
+background-color:#fff;
+}
+
+a, a:link {
+color:#000;
+}
+a:visited {
+	color:#111;
+	background:#fff;
+}
+a:hover {
+	background:#000;
+	color:#fff;
+	text-decoration:none;
+}
+
+pre.doctored{
+	border:1px solid #E4E4E4;
+	border-left:1px solid #E4E4E4;
+	padding:0px;
+	padding-left:8px;
+	padding-top:0px;
+	padding-bottom:1em;
+	/*        padding-bottom:8px;*/
+	overflow:auto;
+}
+pre.doctored span.info_bar{
+	background-color:#E4E4E4;
+	display:block;
+	margin:0px;
+	margin-left:-8px;
+	font-size:12px;
+	color:#000;
+}
